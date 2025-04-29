@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ref, onValue } from 'firebase/database';
 import { database } from '@/lib/firebase';
-import { DashboardData, ListItem } from '@/types';
+import { DashboardData } from '@/types';
 
 export const useRealtimeData = () => {
   const [data, setData] = useState<DashboardData>({
