@@ -35,13 +35,14 @@ yarn install
 
 3. Create a `.env.local` file in the root directory and add your Firebase configuration:
 ```
-NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
-NEXT_PUBLIC_FIREBASE_DATABASE_URL=your_database_url
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyDtLEWiOnwcFZ6R2FpDGKaRVpk
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=nextjs-practical.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_DATABASE_URL=https://nextjs-practical-default-rtdb.asia-southeast1.firebasedatabase.app/
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=nextjs-practical
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=nextjs-practical.firebasestorage.app
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=418402782734
+NEXT_PUBLIC_FIREBASE_APP_ID=1:418402782734:web:41bc116e32b90acdd1365f
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=G-RQW7GG3ME4
 ```
 
 4. Run the development server:
